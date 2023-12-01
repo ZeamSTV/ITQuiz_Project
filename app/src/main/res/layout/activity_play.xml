@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:textAlignment="center"
+    tools:context=".PlayActivity">
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="400dp"
+        android:layout_height="147dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="1dp"
+        android:background="#EAE8E8"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Question 0/00: Enter Question"
+        android:textAlignment="textStart"
+        android:textColor="#ED000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ansD_button"
+        android:layout_width="388dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:backgroundTint="#EFAE3E"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Button"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonskip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ansC_button"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/ansC_button"
+        android:layout_width="388dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:backgroundTint="#EFAE3E"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Button"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/ansD_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ansB_button"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/ansB_button"
+        android:layout_width="388dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:backgroundTint="#EFAE3E"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Button"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/ansC_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ansA_button"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/ansA_button"
+        android:layout_width="388dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:backgroundTint="#EFAE3E"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Button"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/ansB_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestion"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#EFAE3E"
+        android:text="Submit"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929"
+        app:strokeColor="#000000" />
+
+    <TextView
+        android:id="@+id/textIndex"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/arcade_n"
+        android:text="Score:0"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timeRemainingTextView"
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/arcade_n"
+        android:text="Time"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonskip"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944"
+        app:srcCompat="@drawable/skipbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

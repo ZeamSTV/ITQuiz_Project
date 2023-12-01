@@ -1,0 +1,182 @@
+[
+  {
+    "IDquestion": "MC",
+    "question": "Which of the following sorting algorithm is the slowest?",
+    "answer": "Bubble sort",
+    "option1": "Heap sort",
+    "option2": "Shell sort",
+    "option3": "Quick sort",
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "MC",
+    "question": "A data structure in which linear sequence is maintained by pointers is known as",
+    "answer": "Linked list",
+    "option1": "Array",
+    "option2": "Stack",
+    "option3": "Pointer-based data structure",
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "MC",
+    "question": "Which of the following data structure works on the principle of First Come First Serve?",
+    "answer": "Queue",
+    "option1": "Priority queue",
+    "option2": "Heap",
+    "option3": "Stack",
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "MC",
+    "question": "A____is a linear collection of self-referential structures, called nodes, connected by pointer links.",
+    "answer": "Linked list",
+    "option1": "Queue",
+    "option2": "Tree",
+    "option3": "Stack",
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "MC",
+    "question": "A queue where all elements have equal priority is a",
+    "answer": "FIFO data structure",
+    "option1": "ILFO data structure",
+    "option2": "LILO data structure",
+    "option3": "LIFO data structure",
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "MC",
+    "question": "A file that is only read by a program is known as ____",
+    "answer": "Input file",
+    "option1": "Temporary file",
+    "option2": "Work file",
+    "option3": "Input/output file",
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "MC",
+    "question": "What is the worst-case time for serial search finding a single item in an array?",
+    "answer": "Linear time",
+    "option1": "Quadratic time",
+    "option2": "Logarithmic time",
+    "option3": "Constant time",
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "MC",
+    "question": "Which of the following tree maintains a list of the keys in sequential order?",
+    "answer": "B+-tree",
+    "option1": "B*-tree",
+    "option2": "B-tree",
+    "option3": "m-way search tree",
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "MC",
+    "question": "The average case complexity of quick sort for sorting n numbers is",
+    "answer": "O(nlog2n)",
+    "option1": "O(n2)",
+    "option2": "O(n)",
+    "option3": "O(log2n)",
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "MC",
+    "question": "What is the minimum number of nodes in a complete binary tree with depth 3",
+    "answer": "7",
+    "option1": "5",
+    "option2": "6",
+    "option3": "8",
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "TF",
+    "question": "Binary search is always faster than linear search",
+    "answer": "False",
+    "option1": "True",
+    "option2":null,
+    "option3":null,
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "TF",
+    "question": "An objective way to compare two algorithms is by comparing their execution time irrespective of the machines",
+    "answer": "False",
+    "option1": "True",
+    "option2":null,
+    "option3":null,
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "TF",
+    "question": "The parameter to a copy constructor must be passed by reference",
+    "answer": "True",
+    "option1": "False",
+    "option2":null,
+    "option3":null,
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "TF",
+    "question": "The largest value in a binary search tree is always stored at the right most node of the tree",
+    "answer": "True",
+    "option1": "False",
+    "option2":null,
+    "option3":null,
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "TF",
+    "question": "To delete a dynamically allocated tree, the best traversal method is post-order traversal.",
+    "answer": "True",
+    "option1": "False",
+    "option2":null,
+    "option3":null,
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "TF",
+    "question": "Maximum number of nodes in a binary tree that has N levels is 2N",
+    "answer": "False",
+    "option1": "True",
+    "option2":null,
+    "option3":null,
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "TF",
+    "question": "In a binary tree, every node has exactly two children.",
+    "answer": "False",
+    "option1": "True",
+    "option2":null,
+    "option3":null,
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "TF",
+    "question": "When an array is passed to a function, the function receives a copy of the array (call by value)",
+    "answer": "False",
+    "option1": "True",
+    "option2":null,
+    "option3":null,
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "TF",
+    "question": "An O(log N) algorithm is slower than an O(N) algorithm",
+    "answer": "False",
+    "option1": "True",
+    "option2":null,
+    "option3":null,
+    "selectAnswer": "Answer is NULL"
+  },
+  {
+    "IDquestion": "TF",
+    "question": "Most appropriate data structure to print a list of elements in reverse order is Queue data structure",
+    "answer": "False",
+    "option1": "True",
+    "option2":null,
+    "option3":null,
+    "selectAnswer": "Answer is NULL"
+  }
+]

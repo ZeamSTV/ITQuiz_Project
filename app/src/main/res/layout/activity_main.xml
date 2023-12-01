@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagebrain"
+        android:layout_width="200dp"
+        android:layout_height="177dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/brain" />
+
+    <Button
+        android:id="@+id/buttonplay"
+        android:layout_width="202dp"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#ffae00"
+        android:fontFamily="@font/arcade_n"
+        android:text="PLAY"
+        android:textColor="#0C0C0C"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/buttoncreate"
+        android:layout_width="201dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/buttonplay"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#ffae00"
+        android:fontFamily="@font/arcade_n"
+        android:text="ADD Questions"
+        android:textColor="#0C0C0C"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/settingButton"
+        android:layout_width="201dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/buttoncreate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#ffae00"
+        android:fontFamily="@font/arcade_n"
+        android:text="Setting"
+        android:textColor="#0C0C0C"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/buttonquit"
+        android:layout_width="202dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/settingButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#ffae00"
+        android:fontFamily="@font/arcade_n"
+        android:text="QUIT"
+        android:textColor="#0C0C0C"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="546dp"
+        android:fontFamily="@font/arcade_n"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#0C0C0C"
+        android:textSize="44sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="541dp"
+        android:fontFamily="@font/arcade_n"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FEAD00"
+        android:textSize="44sp" />
+
+
+</RelativeLayout>

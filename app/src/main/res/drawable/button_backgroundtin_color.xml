@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:backgroundTint = "#FF021F"/>
+    <item android:state_enabled="true" android:backgroundTint = "#FFEB3B"/>
+    <item android:state_pressed="false" android:backgroundTint = "#FFEB3B"/>
+
+</selector>
